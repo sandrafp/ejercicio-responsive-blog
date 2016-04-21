@@ -1,0 +1,39 @@
+{
+
+var google_ads = new Array();
+var google_ad;
+var google_radlinks = new Array();
+var google_radlink;
+var google_info = new Object();
+google_ad = {}; 
+google_ad.n = 1; 
+google_ad.type = "text"; 
+google_ad.bidtype = "CPC"; 
+google_ad.targeting_type = "contextual"; 
+google_ad.url = "https://www.googleadservices.com/pagead/aclk?sa=L&amp;ai=CyQ7fwPsYV-eyBoibxASOhITgAbzDmcEH_NLW5OwCv-iivcABEAEgn9z2EmCZ8c-BhAWgAcSLndEDyAEBqAMBqgRlT9Aa1eRr7gonHcfQWwuxSDVRyeN-5V9DZVTCLZFvI9SCr1jHVZSbAa8CEEqsHW-NH8ghYHn1g5OW3jlhLeUwHz5S0txltkWez_j_qGLkxAoGwNAueX-MPpOxTHni_BtmaYPGpeuIBgGAB6T04i6oB6a-G9gHAdgTCA&amp;num=1&amp;cid=CAASEuRoBXhJKaD9Qpq8luzp5Rwj2Q&amp;sig=AOD64_11GZWKSzixmx3vxtbdyaoPoblxUA&amp;client=ca-iwon-vimeo&amp;adurl=http://clickserve.dartsearch.net/link/click%3F%26%26ds_e_adid%3D97755196028%26ds_e_matchtype%3Dcontent%26ds_e_device%3Dc%26ds_e_network%3Dd%26%26ds_url_v%3D2%26ds_dest_url%3Dhttp://www.telerik.com/campaigns/kendo-ui/free-trial-4"; 
+google_ad.visible_url = "www.telerik.com/kendo-ui"; 
+google_ad.p_creative_view_url = "";
+google_ad.p_engaged_view_url = "";
+google_ad.p_videoplaytime_25_url = "";
+google_ad.p_videoplaytime_50_url = "";
+google_ad.p_videoplaytime_75_url = "";
+google_ad.p_videoplaytime_100_url = "";
+google_ad.log_info = "Bu585wPsYV-eyBoibxASOhITgAQD80tbk7AIAABABOAHIAQHCExcKDxjkir5aIggIAxABGAEgABjEi53RAw";
+google_ad.activeview_cid = "5GgFeEkpoP1CmryW7OnlHCPZglA";
+google_ad.activeview_js_immediate_enabled = "true";
+google_ad.activeview_metadata = "ud=1&la=0&";
+google_ad.line1 = "Build HTML5 \x26amp; jQuery Apps"; 
+google_ad.line2 = "70+ Responsive HTML5 UI Components"; 
+google_ad.line3 = "To Help You Build Apps Faster."; 
+google_ad.regionname = ""; 
+google_ads[0] = google_ad; 
+google_info.feedback_url = "https://www.google.com/url?ct\x3dabg\x26q\x3dhttps://www.google.com/adsense/support/bin/request.py%3Fcontact%3Dabg_afc%26url%3Dhttps://vimeo.com/56810854%26gl%3DCL%26hl%3Den%26client%3Dca-iwon-vimeo%26hideleadgen%3D1%26ai0%3DCyQ7fwPsYV-eyBoibxASOhITgAbzDmcEH_NLW5OwCv-iivcABEAEgn9z2EmCZ8c-BhAWgAcSLndEDyAEBqAMBqgRlT9Aa1eRr7gonHcfQWwuxSDVRyeN-5V9DZVTCLZFvI9SCr1jHVZSbAa8CEEqsHW-NH8ghYHn1g5OW3jlhLeUwHz5S0txltkWez_j_qGLkxAoGwNAueX-MPpOxTHni_BtmaYPGpeuIBgGAB6T04i6oB6a-G9gHAdgTCA\x26usg\x3dAFQjCNEWoisZ14T5Jlyn-bvXJg27b96I2w";
+var google_attribution_text = "Ads by Google";
+var google_is_rtl = false;
+if (window.google_ad_request_done) {
+google_ad_request_done(google_ads);
+}
+if (window.google_radlink_request_done) {
+google_radlink_request_done(google_radlinks);
+}
+}

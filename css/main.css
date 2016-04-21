@@ -70,7 +70,11 @@ h1 {
 	width: 20%;
 	text-align: center;
 }
-
+/*footer*/
+footer p {
+	text-align: center;
+	color: white;
+}
 /* Responsive */
 
 @media screen and (max-width : 920px) {
