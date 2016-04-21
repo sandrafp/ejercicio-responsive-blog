@@ -3,15 +3,20 @@
 	width: 100%;
 }
 header {
-	background-color: black;
+	background-color: #1b1821;
 }
 header ul, li, a {
 	display: inline-block;
 	list-style: none;
 	text-decoration: none;
-	margin-top: 10px;
+	margin-top: 7px;
 	color: white;
 }
+header  a {
+	padding: 0% 5px;
+	font-family: italic;
+}
+
 .col-9 {
 	text-align: right;
 }
@@ -21,7 +26,7 @@ header
 }
 /*section*/
 .bg-plomo {
-	background-color: grey;
+	background-color: #2d2735;
 }
 .bg-plomo .row {
 	padding-top: 20px;
@@ -29,15 +34,27 @@ header
 .bg-img1 {
 	background: url("../image/header-image.jpg");
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: top center;
 	text-align: center;
 	color: white;
 	background-size: cover;
+	padding-top: 90px;
+	padding-bottom: 80px;
+
+	
 }
 h1 {
 	color: orange;
 	font-size: 30px;
 	font-family: italic;
+
+}
+.spring-come {
+	background-color: black;
+	margin: 0px 180px;
+	padding-bottom: 30px;
+	padding-top: 50px;
+	
 
 }
 
