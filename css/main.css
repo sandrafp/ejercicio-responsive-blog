@@ -146,22 +146,19 @@ footer p {
 @media screen and (max-width : 920px) {
 
 }
-
 @media screen and (max-width: 800px) {
-	.container {
-		text-align: center;
-	}
+	
 	[class*="col-"] {
 		width: 100%;
 	}
 	.container {
     width: 100%;
   	}
-  	.col-3 {
+  	.col-9 {
   	width: 25%;
  	}
-  	.col-9 {
-  	width: 66.666667%;
+  	.col-3 {
+  	width: 75%;
  	}
   	.bg-img1 {
   	width: 100%;
@@ -175,12 +172,11 @@ footer p {
     visibility: hidden;
     display: none;
     }
-    .fa-bars {
+    .fa-bars  {
 	visibility:visible;
-    display:inline;
+    display:block;
     border-radius: none;
-    margin:10px 3px;
-    padding: 0;
-    font-size: 200%;
+    font-size: 50px;
+    background-color: #1b1821;
 	}
 }
